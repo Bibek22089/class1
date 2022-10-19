@@ -4,25 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first ne[w website </title>
+    <title>My first table</title>
+    <h1>Hello everyone</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ad alias adipisci officiis saepe optio distinctio natus quasi
+    enim quidem magni ipsum delectus suscipit maxime, tempore fuga praesentium aliquam dolores.</p>
 </head>
 <body>
-    <p id="demo"></p>
-    
-    <script>
-        function myfunction(C){
-            return (C * 9/5) + 32;
+    <style>
+        table, th, td {
+          border:1px solid black;
+          width:1200px;
+          height: 10px;
+          table-layout:inherit;
+        text-align: center ;
+        background-color: aqua;
+        border-radius: 10px;
+        border-style: dotted;
+        border-color:black;
+        border-spacing: 2ch;
         }
-        function oddeven(n){
-            if(n%2==0){
-                return "even";
-            }else{
-                return "odd";
-            }
-        }
-
-        document.getElementById("demo").innerHTML=oddeven(4);
-    </script>
+        </style>
+        <table>
+            
+            <tr>
+                <th>class</th>
+            <th>name</th>
+            <th>section</th>
+            <th>roll</th>
+            <th>address</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>nisha</td>
+                <td>ktm</td>
+                <td>9876453434</td>
+                <td>eleven</td>
+            </tr>
+            <br>
+            <tr>
+                <td>2</td>
+                <td>ram</td>
+                <td>damak</td>
+                <td>9857453493</td>
+                <td>nine</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>sita</td>
+                <td>ithari</td>
+                <td>9803546734</td>
+                <td>seven</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>hari</td>
+                <td>dharan</td>
+                <td>985679465</td>
+                <td>ten</td>
+            </tr>
+            <br>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe">
+              </form>
+            
+        </table>
+        </table>
+    </div>
     
 </body>
 </html>
